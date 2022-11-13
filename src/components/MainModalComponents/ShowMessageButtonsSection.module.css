@@ -1,0 +1,9 @@
+.section{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.section div{
+	width: 30px;
+}

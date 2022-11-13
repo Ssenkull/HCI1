@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;500;600;700;800&display=swap');
+
+
+
+
+.article{
+	font-family: 'Noto Sans Mono', monospace;
+	position: absolute;
+	left: 380px;
+	z-index: 5;	
+}
+
+
+
+.title{
+	font-size: 32px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.title img{
+	padding-right: 20px;
+}
+
+.article form {
+	display: flex;
+	flex-direction: column;
+	
+}
+

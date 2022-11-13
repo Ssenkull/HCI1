@@ -1,0 +1,32 @@
+.wrapper{
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	padding: 15px 0;
+	margin-bottom: 15px;
+	min-height: 100%;
+}
+
+.inner{
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+.line{
+	display: block;
+	width: 1px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	height: 45px;
+}
+
+.inner button{
+	background-color: transparent;
+	border: 1px solid black;
+	padding: 2px 5px;
+}
+
+.inner button:not(:last-child){
+	margin-bottom: 3px;
+}

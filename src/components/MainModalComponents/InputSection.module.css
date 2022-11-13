@@ -1,0 +1,17 @@
+.section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.section label {
+	text-align: right;
+	margin-right: 10px;
+}
+
+.section input {
+	border: 1px solid black;
+	height: 30px;
+	padding: 5px;
+}
